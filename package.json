@@ -7,6 +7,11 @@
     "type": "git",
     "url": "git+https://github.com/appcook/eslint-config-react.git"
   },
+  "keywords": [
+    "eslint",
+    "eslint react",
+    "eslint-config-react"
+  ],
   "author": "Wang Chi <hiwangchi@gmail.com>",
   "license": "MIT",
   "bugs": {
