@@ -41,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "@appcook/eslint-config-react": "^1.0.0"
+    "@appcook/eslint-config-react": "^1.2.1"
   }
 }
