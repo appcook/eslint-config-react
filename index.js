@@ -18,10 +18,8 @@ module.exports = {
 
   env: {
     browser: true,
-    commonjs: true,
-    es6: true,
-    jest: true,
     node: true,
+    es2021: true,
   },
 
   settings: {
@@ -43,7 +41,7 @@ module.exports = {
 
   overrides: [
     {
-      files: ['**/*.ts?(x)'],
+      files: ['**/*.ts', '**/*.tsx'],
 
       plugins: ['@typescript-eslint', 'prettier', 'react'],
 
@@ -60,13 +58,10 @@ module.exports = {
       rules: {
         'react/prop-types': 0,
         '@typescript-eslint/no-explicit-any': 0,
-        '@typescript-eslint/no-var-requires': 0,
         '@typescript-eslint/explicit-module-boundary-types': 0,
-        '@typescript-eslint/no-empty-interface': 0,
         '@typescript-eslint/camelcase': 0,
         '@typescript-eslint/explicit-function-return-type': 0,
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': ['error'],
+        '@typescript-eslint/ban-ts-comment': 0,
       },
     },
   ],
