@@ -1,3 +1,5 @@
 {
-  "extends": "@appcook/react"
+  "extends": [
+    "../../index.js"
+  ]
 }
