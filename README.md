@@ -1,6 +1,5 @@
-<h1 align="center">@appcook/eslint-config-react</h1>
+# @appcook/eslint-config-react
 
-<div align="center">
 [![npm version][npm-version-image]](npm-url)
 [![npm downloads][npm-download-image]][npm-url]
 [![node engine][node-engine-image]][npm-url]
