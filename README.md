@@ -1,6 +1,6 @@
 # @appcook/eslint-config-react
 
-[![npm version][npm-version-image]](npm-url)
+[![npm version][npm-version-image]][npm-url]
 [![npm downloads][npm-download-image]][npm-url]
 [![node engine][node-engine-image]][npm-url]
 
